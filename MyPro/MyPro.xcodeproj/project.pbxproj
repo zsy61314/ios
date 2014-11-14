@@ -36,6 +36,7 @@
 		3E4023F01A149DC100355705 /* MyProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4023F51A149DC100355705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E4023F61A149DC100355705 /* MyProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProTests.swift; sourceTree = "<group>"; };
+		3E58EDBE1A1595F60023BF89 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				3E4023E71A149DC100355705 /* Images.xcassets */,
 				3E4023E91A149DC100355705 /* LaunchScreen.xib */,
 				3E4023DE1A149DC100355705 /* Supporting Files */,
+				3E58EDBE1A1595F60023BF89 /* MyPlayground.playground */,
 			);
 			path = MyPro;
 			sourceTree = "<group>";
@@ -405,6 +407,7 @@
 				3E4023FC1A149DC100355705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E4023FD1A149DC100355705 /* Build configuration list for PBXNativeTarget "MyProTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +416,7 @@
 				3E4023FF1A149DC100355705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -23,6 +23,7 @@
 		3EDD24101A2A388C00C6EBA0 /* Models_description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3EDD240F1A2A388C00C6EBA0 /* Models_description.txt */; };
 		3EDD24131A2A39C500C6EBA0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDD24121A2A39C500C6EBA0 /* icon@2x.png */; };
 		3EDD24161A2AAF4700C6EBA0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDD24151A2AAF4700C6EBA0 /* CloudKit.framework */; };
+		3EE7B6EC1A2B53250081AC07 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7B6EB1A2B53250081AC07 /* MainMenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		3EDD24121A2A39C500C6EBA0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../../../icon@2x.png"; sourceTree = "<group>"; };
 		3EDD24141A2AADAC00C6EBA0 /* MyPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MyPro.entitlements; sourceTree = "<group>"; };
 		3EDD24151A2AAF4700C6EBA0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		3EE7B6EB1A2B53250081AC07 /* MainMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				3EDD24141A2AADAC00C6EBA0 /* MyPro.entitlements */,
 				3E4023E21A149DC100355705 /* ViewController.swift */,
+				3EE7B6EB1A2B53250081AC07 /* MainMenuVC.swift */,
 				3E4023E41A149DC100355705 /* Main.storyboard */,
 				3E4023E71A149DC100355705 /* Images.xcassets */,
 				3E4023E91A149DC100355705 /* LaunchScreen.xib */,
@@ -174,6 +177,9 @@
 			isa = PBXGroup;
 			children = (
 				3EDD24031A2A370B00C6EBA0 /* General_description.txt */,
+				3EE7B6E81A2B51330081AC07 /* Categories */,
+				3EE7B6E71A2B512D0081AC07 /* Classes */,
+				3EE7B6E61A2B51230081AC07 /* Views */,
 			);
 			name = General;
 			sourceTree = "<group>";
@@ -217,6 +223,27 @@
 				3EDD24121A2A39C500C6EBA0 /* icon@2x.png */,
 			);
 			name = icon_and_launchImage;
+			sourceTree = "<group>";
+		};
+		3EE7B6E61A2B51230081AC07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3EE7B6E71A2B512D0081AC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3EE7B6E81A2B51330081AC07 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +363,7 @@
 			files = (
 				3E4023E31A149DC100355705 /* ViewController.swift in Sources */,
 				3E4023E11A149DC100355705 /* AppDelegate.swift in Sources */,
+				3EE7B6EC1A2B53250081AC07 /* MainMenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

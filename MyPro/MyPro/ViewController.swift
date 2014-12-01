@@ -23,8 +23,37 @@ class ViewController: UIViewController {
     
     @IBAction func LoginBtnClicked(sender: AnyObject) {
         print("login btn pressed");
+        
+    //[self performSegueWithIdentifier:@"pushSecondViewController" sender:self]; 
+        
+        
+        self.performSegueWithIdentifier("presentModelVC", sender: self);
+        
+//        presentModelVC
     }
 
+    
+    
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+
+    
+    override  func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+//        if ([[segue identifier] isEqualToString:@"pushSecondViewController"]) {
+//            
+//            SecondViewController *secondViewController = segue.destinationViewController;
+//            
+//            secondViewController.x = @"hello world";
+//        }
+        
+//        if segue.identifier == "presentModelVC"
+//        {
+//            var vc:UIViewController = segue.destinationViewController;
+//            
+//        }
+    
+    }
+    
 
 }
 
